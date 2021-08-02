@@ -18,7 +18,7 @@ int main(){
         cin >> input;
     }
 
-    cout << "The total sum of number is " << sum << endl;
+    cout << "The sum of numbers is " << sum << endl;
     
 
     return 0;
