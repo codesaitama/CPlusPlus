@@ -65,6 +65,10 @@ int main()
             jamsOwned = totalPurchases - 6;
             amountToPay = balance + (jamsOwned * 3);
             break;
+        default:
+            cout << "Incorrect package selected!";
+            return 0;
+
         }
 
         cout << "You owe $" << amountToPay << endl;
