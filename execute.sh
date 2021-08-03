@@ -1,2 +1,3 @@
-g++ ./src/$1.cpp -o ./src/build/$1 && ./src/build/$1
+filename=$1
+g++ ./src/$filename.cpp -o ./src/build/$filename && ./src/build/$filename
 # g++ repetitionFun.cpp -o build/repetitionFun && build/repetitionFun
