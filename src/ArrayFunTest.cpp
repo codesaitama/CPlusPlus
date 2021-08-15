@@ -4,10 +4,10 @@ using namespace std;
 
 int main(){
 
-    array<int, 5> myIntArray;
+    array<int, 5> myIntArray {0, 0, 0, 0, 0};
 
-    for(int a = 0; a < 5; a++){
-        cout << myIntArray[a] << endl;
+    for(int a : myIntArray){
+        cout << a << endl;
     }
 
     return 0;
